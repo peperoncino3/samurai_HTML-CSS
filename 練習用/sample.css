@@ -48,7 +48,7 @@ input:focus{
     background-color: yellow;
 }
 
-.clsrm{
+.pics2r{
     width: 20%;
     
 }
@@ -114,8 +114,15 @@ input:focus{
     grid-column: 2 / 3;
     background-color:pink;
     margin: 10px;
-    
 }
+
+#grid3 ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    height: calc(100% - 36px - 19px - 20px);
+}    
 
 #grid3 .grid3list {
  	border: solid 1px #C36;
